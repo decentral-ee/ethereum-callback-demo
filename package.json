@@ -1,0 +1,19 @@
+{
+  "name": "ethereum-callback-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@decentral.ee/web3-test-helpers": "^0.2.7",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "truffle": "^5.1.31"
+  }
+}
