@@ -41,7 +41,7 @@ contract("Test all", (accounts) => {
         console.log("gassyApp", gassyApp.address);
     });
 
-    it.only("good app flow", async () => {
+    it("good app flow", async () => {
         // connect alice and bob
         await web3tx(goodApp.connect, "goodApp connect alice and blob, initial value at 3")(
             framework.address, alice, bob, 3, {
